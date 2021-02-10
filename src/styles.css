@@ -1,0 +1,53 @@
+body {
+  background: pink;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 50vw;
+  height: 100%;
+  padding: 15px;
+  margin: 25px auto;
+  background: #ffff;
+  color: black;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+#count {
+  color: grey;
+}
+.card {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+}
+.cardText {
+  margin: 0 auto;
+}
+@media (max-width: 468px) {
+  .App {
+    width: 80vw;
+  }
+  img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+  }
+}
+h3 {
+  color: grey;
+  margin: 5px;
+}
+button {
+  padding: 15px;
+  background: pink;
+  border: none;
+  margin: 5px;
+  color: #ffff;
+  cursor: pointer;
+}
